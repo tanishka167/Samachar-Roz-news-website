@@ -12,6 +12,3 @@ Note: This project is created for practice purpose.
 
 • JavaScript
 
-# Demo
-
-Refer the link:  http://127.0.0.1:5500/index.html
