@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <img class="company-logo" onclick="reload()" src="https://samacharroz.com/wp-content/uploads/2023/11/cropped-cropped-cropped-Picsart_23-11-10_16-55-03-953-2-2.png" alt="samachar logo">
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</li>
+                    <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                    <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                    <li class="hover-link nav-item" id="celebrity" onclick="onNavItemClick('celebrity')">Celebrity</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input id="search-text" type="text" name="news-input" placeholder="eg.science">
+                <button id="search-button" class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div id="cursor-blur"></div>
+    <video id="myvideo"autoplay muted loop src="news.mp4"></video>
+    <main>
+        <cards class="cards-container container flex" id="cards-container" id="#news-img">
+            
+            </div>
+        </cards>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the title</h3>
+                <h4 class="news-source" id="news-source">End Gadget 26/08/24</h4>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nam!</p>
+            </div>
+    </template>
+
+    <!-- <video autoplay loop muted src="https://in.video.search.yahoo.com/video/play;_ylt=AwrKB00iXcNm7Tcw.enmHAx.;_ylu=c2VjA3NyBHNsawN2aWQEZ3BvcwMxNg--?p=breaking+news+videos&vid=e7c3b27a97208d01224f535e17ae893e&turl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOVP.BSUrpo6AP3zujx5T5lpJ_QEsDh%26pid%3DApi%26h%3D225%26w%3D300%26c%3D7%26rs%3D1&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVGHQBU6yGo0&tit=World+%3Cb%3EBreaking%3C%2Fb%3E+%3Cb%3ENews%3C%2Fb%3E+HD+Free+Video&c=15&sigr=x2Vc3FDOj3aZ&sigt=n8N0GnPTJWlG&sigi=Xma8uCLQFYBN&fr2=p%3As%2Cv%3Av&h=225&w=300&l=10&age=1647904961&fr=mcafee&type=E210IN826G0&tt=b"></video> -->
+    <script src="script.js"></script>
+</body>
+</html>
