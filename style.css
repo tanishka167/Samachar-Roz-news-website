@@ -4,10 +4,10 @@
     font-family: 'montserrat';
     box-sizing: border-box;
 }
-:root{
-    --primary-text-color:#183b56;
-    --secondary-text-color:#577592;
-    --accent-color:#2294cd;
+ :root{
+    --primary-text-color:#dede2d;
+    --secondary-text-color:#f4a004d1;
+    --accent-color:#4aa3cf;
     --accent-color-dark:#1d69a3;
 }
 html,body{
@@ -19,16 +19,6 @@ html,body{
 main,body{
     position: relative;
     background-color:rgba(0, 0, 0, 0.78);
-}
-#cursor-blur{
-    height:400px;
-    width: 400px;
-    background-color: #a4cf2e1b;
-    border-radius: 50%;
-    position: fixed;
-    filter: blur(40px);
-    z-index: 9;
-
 }
 
 video{
