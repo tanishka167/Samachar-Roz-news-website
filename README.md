@@ -12,3 +12,6 @@ Note: This project is created for practice purpose.
 
 • JavaScript
 
+# Here's how it looks 
+
+![Screenshot (328)](https://github.com/user-attachments/assets/79e88ed0-4016-4420-bdf3-aa52a6522d03)
